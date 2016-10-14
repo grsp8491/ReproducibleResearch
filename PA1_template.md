@@ -47,7 +47,7 @@ act.df %>%
         scale_y_continuous(limits=c(0,12), breaks=seq(from=0, to=12, by=2)) 
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![plot of Figure 1](/figure/Figure 1.png)
 
 ###The mean and median of the total number of steps taken per day
 
@@ -79,7 +79,7 @@ act.df %>%
         ylab("Average steps per 5-minute  interval")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![plot of Figure 2](/figure/Figure 2.png)
 
 ###Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -131,7 +131,7 @@ act2.df %>%
         scale_y_continuous(limits=c(0,20), breaks=seq(from=0, to=20, by=5))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![plot of Figure 3](/figure/Figure 3.png)
 ###The mean and median of the total number of steps taken per day
 
 ```r
@@ -169,7 +169,7 @@ act2.df %>%
         ylab("Average steps per 5-minute  interval")   
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![plot of Figure 4](/figure/Figure 4.png)
 
 
 
